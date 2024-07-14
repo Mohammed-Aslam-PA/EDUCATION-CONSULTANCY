@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Consultancy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            color: #fff;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero .btn {
+            background: #e8491d;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .hero .btn:hover {
+            background: #333;
+        }
+
+        .about {
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .about h2 {
+            margin-bottom: 1rem;
+        }
+        .container-fluid {
+            position: relative;
+            text-align: center;
+            color: white;
+            width: 100%;
+        }
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .about img {
+            max-width: 100%;
+            height: auto;
+            margin: 1rem 0;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Education Consultancy</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+         
+          <div class="carousel-inner">
+            <div  class="item active">
+              <img src="EC.jpeg" id="abc"  style="width:80%;"> 
+            </div>
+          </div>
+        </div>
+        <div class="centered">
+            <h3><b>YOUR FUTURE STARTS HERE</b></h3>
+            <h4>WE PROVIDE EXPERT GUIDANCE FOR YOU EDUCATION AND CAREER PATH</h4></div><br> 
+                <button class="btn">LOCATION</button>
+                 <button class="inf">MORE INFO</button>
+          </div>
+    </div>
+    
+    <section class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <img src="EDU.jpeg" alt="About Us Image">
+            <p>We are a leading education consultancy with years of experience in helping students achieve their dreams. Our expert counselors provide personalized guidance and support to ensure you find the right educational path.</p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Education Consultancy. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
